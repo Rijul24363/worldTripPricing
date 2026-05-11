@@ -22,7 +22,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t worldtripregistry.azurecr.io/worldtripPricing:latest .
+          docker build -t worldtripregistry.azurecr.io/worldtrippricing:latest .
       - name: Push Docker image to Azure
         run: |
-          docker push worldtripregistry.azurecr.io/worldtripPricing:latest
+          docker push worldtripregistry.azurecr.io/worldtrippricing:latest
